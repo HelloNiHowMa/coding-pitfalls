@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+testpaths = ["pitfalls"]
+# 每筆陷阱各自一個資料夾，不加 __init__.py；
+# importlib 模式讓不同資料夾裡的測試檔可以同名
+addopts = "--import-mode=importlib"

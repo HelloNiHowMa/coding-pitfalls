@@ -1,0 +1,3 @@
+pytest
+# 選用：沒裝的話，numpy 相關的測試會自動略過
+numpy
