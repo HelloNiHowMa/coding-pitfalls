@@ -9,6 +9,7 @@
 | ID | 陷阱 | 語言 | 分類 | 嚴重度 |
 |----|------|------|------|--------|
 | [NUM-001](pitfalls/numeric/python-round-half-even/) | `round()` 是四捨六入五成雙，不是四捨五入 | Python | 數值／捨入 | 高 |
+| [CON-001](pitfalls/concurrency/sql-check-then-act/) | 先查庫存再扣，並行時會超賣，而且庫存不一定變成負數 | SQL（Python sqlite3 示範） | 並行／交易 | 高 |
 
 ID 是為了在測試案例裡引用，例如測試案例備註寫「參考 NUM-001」。
 
